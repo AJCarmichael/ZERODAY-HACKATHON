@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "SarkarSathi Extension",
+    "version": "1.0.0",
+    "action": {
+      "default_popup": "src/popup/popup.html"
+    },
+    "permissions": ["storage","activeTab"],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
+  
